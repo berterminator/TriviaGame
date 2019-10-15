@@ -1,0 +1,157 @@
+body{
+    background-color:lightgray;
+    background-image: url(../images/backround.jpg);
+    font-family:'Nunito', calibri, sans-serif;
+}
+
+#main-div{
+    background-color: #666666;
+    width: 800px;
+    margin: 0px auto 0px auto;
+    padding: 0px 0px 0px 0px;
+}
+
+#title-div{
+    width: 600px;
+    margin: 0px auto;
+    padding: 30px 0px 0px 0px;
+
+}
+
+h1{
+    font-family: 'Mansalva', Calibri, sans-serif;
+    font-size: 80px;
+    color: whitesmoke;
+    display: block;
+    text-align: center;
+    margin: 
+    Padding: 100px 0px 30px 0px;
+}
+
+#start-div{
+    color: black;
+    width: 600px;
+    margin: 50px auto;
+    background-color:beige;
+    padding: 20px 20px 20px 20px;
+    font-size: 20px;
+}
+
+.p-div-content{
+    margin: 5px 0px 30px 0px;
+}
+
+.start-p{
+    display: inline;
+    text-align: left justify;
+    margin: 5px auto 25px 0px;
+    width: 400px;
+}
+
+#start-button{
+    text-align: center justify;
+    font-size: 30px;
+    display: block;
+    height: 80px;
+    width: 170px;
+    margin: 20px auto 5px auto;
+}
+
+.mickey-bullet{
+    display: inline;
+    height: 30px;
+    width: 30px;
+}
+
+footer{
+    width: 800px;
+    margin: 0px auto;
+    text-align: center;
+    background-color: #333333;
+    color: white;
+}
+
+.footer-p-one{ 
+    margin: 0px 0px 0px 0px;
+    padding: 30px 0px 0px 0px;
+}
+
+.footer-p-two{ 
+    margin: 0px;
+    padding: 0px 0px 30px 0px;
+} 
+
+#time-div{
+    display: inline;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#time-div{ 
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+#time-remaining-text{
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.questions-div{
+    width: 680px;
+    height: 160px;
+    margin: 40px auto;
+    padding: 0px;
+}
+
+.questions-p-one{
+    margin: 0px;
+    padding: 25px 0px 5px 30px;
+    font-weight: bold;
+}
+
+.questions-p-two{
+    margin: 0px 0px 0px 0px;
+    padding: 25px 35px 5px 5px;
+    font-weight: bold;
+}
+
+.anwers-div{
+    width: 100%;
+    text-align: center;
+    margin: 0px 0px 0px 45px;
+    padding: 0px;
+}
+
+#all-done{
+    text-align: center;
+    background-color: beige;
+    width: 600px;
+    margin: 0px auto 40px auto;
+}
+
+#tinkerbell{
+    height: 150px;
+    padding: 0px 0px 0px 30px;
+    margin: -30px 0px 0px 0px;
+}
+
+.left-text{
+    display: inline;
+}
+
+.right-text{
+    display: inline;
+}
+
+h2{
+    font-size: 40px;
+    padding: 0px 0px 20px 0px;
+}
+
+.final-text{
+    text-align: left;
+    font-size: 20px;
+    padding: 0px 0px 0px 45px;
+}

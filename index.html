@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Disney Movie Trivia</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel = "stylesheet" type = "text/css" href = "assets/css/style.css" />
+    <link rel='icon' href='assets/images/Disneyfavicon.png' type='image/x-icon'>
+    <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div id="main-div" class="container">
+
+        <div id="title-div">
+            <h1>Disney<br> Movie Trivia</h1>
+        </div> 
+
+        <div class="container jumbotron" id="start-div">
+            <div class="container" id="p-div">
+                <div class="row p-div-content">
+                    <div class="col-1">
+                        <img class="mickey-bullet" src="assets/images/mickey-logo.png" alt="mickey">
+                    </div>
+                    <div class="col-11">
+                        <p class="start-p">You will be given five (5) minutes to answer ten (10) challenging Disney movie trivia questions.</p>
+                    </div>
+                </div>
+                <div class="row p-div-content">
+                    <div class="col-1">
+                        <img class="mickey-bullet" src="assets/images/mickey-logo.png" alt="mickey">
+                    </div>
+                    <div class="col-11">
+                        <p class="start-p">Click on the <b>"Start"</b> button to begin the challenge!</p>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-dark" id="start-button" type="button" value="Start">Start</button>
+        </div>
+
+
+
+        <div id="trivia-content-div" class="container">
+            <div class="row" id="time-div">
+                    <p>Time Remaining: <br><span id="time-remaining-text">00:00</span></p>
+            </div>
+        
+                <div id="questions-div">
+        
+                    <div class="questions-div jumbotron" id="question-one-div">
+                        <div class="row">
+                            <div class=col-1><p class="questions-p-one">1.</p></div>
+                            <div class="col-11"><p class="questions-p-two" id="question-one-p">Who was the only Disney main character who didn’t talk throughout the entire film?</p></div> 
+                        </div>
+                        <div class="row anwers-div" id="answer-one-div">
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-one-one"><br><span>Pinocchio</span></div>
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-one-two"><br><span>Dumbo</span></div>
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-one-three"><br><span>Pinocchio</span></div>
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-one-four"><br><span>Pinocchio</span></div>
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-one-five"><br><span>Pinocchio</span></div>
+                        </div>
+                    </div>
+
+                    <div class="questions-div jumbotron" id="question-one-div">
+                        <div class="row">
+                            <div class=col-1><p class="questions-p-one">2.</p></div>
+                            <div class="col-11"><p class="questions-p-two" id="question-one-p">In the 1940 animated musical film Fantasia, Disney cast Mickey Mouse as the sorcerer’s apprentice. Who was originally supposed to play the role?</p></div> 
+                        </div>
+                        <div class="row anwers-div" id="answer-one-div">
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-two-one"><br><span>Pinocchio</span></div>
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-two-two"><br><span>Dopey</span></div>
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-two-three"><br><span>Pinocchio</span></div>
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-two-four"><br><span>Pinocchio</span></div>
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-two-five"><br><span>Pinocchio</span></div>
+                        </div>
+                    </div>
+
+                    <div class="questions-div jumbotron" id="question-one-div">
+                        <div class="row">
+                            <div class=col-1><p class="questions-p-one">3.</p></div>
+                            <div class="col-11"><p class="questions-p-two" id="question-one-p">What full length Disney animated film was only shown in 14 theaters across the globe for its complicated audio?</p></div> 
+                        </div>
+                        <div class="row anwers-div" id="answer-one-div">
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-three-one"><br><span>Fantasia</span></div>
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-three-two"><br><span>Pinocchio</span></div>
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-three-three"><br><span>Pinocchio</span></div>
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-three-four"><br><span>Pinocchio</span></div>
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-three-five"><br><span>Pinocchio</span></div>
+                        </div>
+                    </div>
+
+                    <div class="questions-div jumbotron" id="question-one-div">
+                        <div class="row">
+                            <div class=col-1><p class="questions-p-one">4.</p></div>
+                            <div class="col-11"><p class="questions-p-two" id="question-one-p">In Pinocchio, he and his father are consumed by a massive blue whale. What was its name?</p></div> 
+                        </div>
+                        <div class="row anwers-div" id="answer-one-div">
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-four-one"><br><span>Pinocchio</span></div>
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-four-two"><br><span>Pinocchio</span></div>
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-four-three"><br><span>Pinocchio</span></div>
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-four-four"><br><span>Pinocchio</span></div>
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-four-five"><br><span>Monstro</span></div>
+                        </div>
+                    </div>
+
+                    <div class="questions-div jumbotron" id="question-one-div">
+                        <div class="row">
+                            <div class=col-1><p class="questions-p-one">5.</p></div>
+                            <div class="col-11"><p class="questions-p-two" id="question-one-p">Who was the actor that received the first Golden Globe nomination for voicing a character in a Disney animated film?</p></div> 
+                        </div>
+                        <div class="row anwers-div" id="answer-one-div">
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-five-one"><br><span>Pinocchio</span></div>
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-five-two"><br><span>Pinocchio</span></div>
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-five-three"><br><span>Pinocchio</span></div>
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-five-four"><br><span>Robin Williams</span></div>
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-five-five"><br><span>Pinocchio</span></div>
+                        </div>
+                    </div>
+
+                    <div class="questions-div jumbotron" id="question-one-div">
+                        <div class="row">
+                            <div class=col-1><p class="questions-p-one">6.</p></div>
+                            <div class="col-11"><p class="questions-p-two" id="question-one-p">What was the name of Maleficent’s pet raven?</p></div> 
+                        </div>
+                        <div class="row anwers-div" id="answer-one-div">
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-six-one"><br><span>Pinocchio</span></div>
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-six-two"><br><span>Pinocchio</span></div>
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-six-three"><br><span>Diablo</span></div>
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-six-four"><br><span>Pinocchio</span></div>
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-six-five"><br><span>Pinocchio</span></div>
+                        </div>
+                    </div>
+
+                    <div class="questions-div jumbotron" id="question-one-div">
+                        <div class="row">
+                            <div class=col-1><p class="questions-p-one">7.</p></div>
+                            <div class="col-11"><p class="questions-p-two" id="question-one-p">What was the last movie that Walt Disney was able to work on before he died?</p></div> 
+                        </div>
+                        <div class="row anwers-div" id="answer-one-div">
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-seven-one"><br><span>Pinocchio</span></div>
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-seven-two"><br><span>Pinocchio</span></div>
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-seven-three"><br><span>Pinocchio</span></div>
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-seven-four"><br><span>The Jungle Book</span></div>
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-seven-five"><br><span>Pinocchio</span></div>
+                        </div>
+                    </div>
+
+                    <div class="questions-div jumbotron" id="question-one-div">
+                        <div class="row">
+                            <div class=col-1><p class="questions-p-one">8.</p></div>
+                            <div class="col-11"><p class="questions-p-two" id="question-one-p">What Disney movie received the first ever Oscar nomination in the company’s entire history?</p></div> 
+                        </div>
+                        <div class="row anwers-div" id="answer-one-div">
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-eight-one"><br><span>Pinocchio</span></div>
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-eight-two"><br><span>Pinocchio</span></div>
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-eight-three"><br><span>Beauty and the Beast</span></div>
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-eight-four"><br><span>Pinocchio</span></div>
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-eight-five"><br><span>Pinocchio</span></div>
+                        </div>
+                    </div>
+
+                    <div class="questions-div jumbotron" id="question-one-div">
+                        <div class="row">
+                            <div class=col-1><p class="questions-p-one">9.</p></div>
+                            <div class="col-11"><p class="questions-p-two" id="question-one-p">In most Disney princess movies, the princess’ father is the only biological parent living. Which Disney princess had the opposite?</p></div> 
+                        </div>
+                        <div class="row anwers-div" id="answer-one-div">
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-nine-one"><br><span>Tiana</span></div>
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-nine-two"><br><span>Pinocchio</span></div>
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-nine-three"><br><span>Pinocchio</span></div>
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-nine-four"><br><span>Pinocchio</span></div>
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-nine-five"><br><span>Pinocchio</span></div>
+                        </div>
+                    </div>
+
+                    <div class="questions-div jumbotron" id="question-one-div">
+                        <div class="row">
+                            <div class=col-1><p class="questions-p-one">10.</p></div>
+                            <div class="col-11"><p class="questions-p-two" id="question-one-p">How many daughters does King Triton have in The Little Mermaid?</p></div> 
+                        </div>
+                        <div class="row anwers-div" id="answer-one-div">
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-ten-one"><br><span>Pinocchio</span></div>
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-ten-two"><br><span>Seven</span></div>
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-ten-three"><br><span>Pinocchio</span></div>
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-ten-four"><br><span>Pinocchio</span></div>
+                            <div class="col-2"><input class="answer-input" type="radio" value="answer-ten-five"><br><span>Pinocchio</span></div>
+                        </div>
+                    </div>
+                 </div>
+
+        
+
+        <div class="jumbotron" id="all-done">
+            <h2>All Done!</h2>
+
+                <div class="row">
+                    <div class="col-3">
+                        <img id="tinkerbell" src="assets/images/tinkerbell.png" alt="Tinkebell">
+                    </div>
+                    <div class="col-9">
+
+                        <div class="row">
+                            <div class="col-8 final-text">
+                                <p>Correct answers:</p>
+                            </div>
+                            <div class="col-2 final-text">
+                                <p>0</p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-8 final-text">
+                                <p>Incorrect answers:</p>
+                            </div>
+                            <div class="col-2 final-text">0</div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-8 final-text">
+                                <p>Unanswered questions:</p>
+                            </div>
+                            <div class="col-2 final-text">
+                                <p>0</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            <button class="btn btn-dark" id="start-button" type="button" value="Start">Try Again</button>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <p class="footer-p-one">Humberto Gómez Calderón</p>
+        <p class="footer-p-two"><span id="current-year">2019</span> &copy; Copyright</p>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
+</body>
+</html>
